@@ -1,0 +1,14 @@
+{
+  "id": "seuaddon",
+  "version": "1.0.0",
+  "name": "Seu Addon",
+  "description": "Descrição do seu addon.",
+  "resources": [
+    "catalog",
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ]
+}
