@@ -1,21 +1,28 @@
 {
-  "id": "seuaddon",
-  "version": "1.0.0",
-  "name": "Seu Addon",
-  "description": "Descrição do seu addon.",
-  "catalogs": [
-    {
-      "type": "movie",
-      "id": "movies",
-      "name": "Filmes"
-    }
-  ],
-  "resources": [
-    "catalog",
-    "stream"
-  ],
-  "types": [
-    "movie",
-    "series"
-  ]
+    "id": "com.stremio.brazuca.addon",
+    "version": "0.0.4",
+    "name": "Brazuca Torrents",
+    "description": "Fornece streams de filmes e series dublados de provedores de torrent. Suporta atualmente BluDV(+), Comando(+), EraiRaws(+), Keroseed(+), Lapumia(+), NyaaSi(+), OnePieceEx(+), Sukebei(+), VacaTorrent(+). (This addon was made based on Torrentio, all credits are to its creator).",
+    "catalogs": [],
+    "resources": [
+        {
+            "name": "stream",
+            "types": [
+                "movie",
+                "series"
+            ],
+            "idPrefixes": [
+                "tt",
+                "kitsu",
+                "tmdb"
+            ]
+        }
+    ],
+    "types": [
+        "movie",
+        "series",
+        "other"
+    ],
+    "background": "https://i.imgur.com/QnbEGow.png",
+    "logo": "https://i.imgur.com/KVpfrAk.png"
 }
