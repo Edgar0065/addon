@@ -1,9 +1,9 @@
 {
-    "id": "seuaddon",
-    "version": "1.0.0",
-    "name": "Seu Addon",
-    "description": "Descrição do seu addon.",
-    "catalogs": [], // Adicionamos um catálogo vazio aqui
+    "id": "com.stremio.torrentapi.addon",
+    "version": "0.0.4",
+    "name": "Filmes Torrents",
+    "description": "Fornece streams de filmes e series dublados de provedores de torrent. Suporta atualmente BluDV(+), Comando(+), EraiRaws(+), Keroseed(+), Lapumia(+), NyaaSi(+), OnePieceEx(+), Sukebei(+), VacaTorrent(+). (Este add-on foi feito com base no Torrentio, todos os créditos vão para o criador).",
+    "catalogs": [],
     "resources": [
         {
             "name": "stream",
@@ -24,5 +24,5 @@
         "other"
     ],
     "background": "https://i.imgur.com/QnbEGow.png",
-    "logo": "https://i.imgur.com/KVpfrAk.png"
+    "logo": "https://brandslogos.com/wp-content/uploads/images/large/puma-logo-1.png"
 }
